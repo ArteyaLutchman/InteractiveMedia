@@ -74,11 +74,12 @@ h1{
 /*japan*/
 
 .Japan{
+	border: black solid;
 	display: grid;
-	width: 250px;
+	width: 350px;
 	height: 250px;
-	grid-template-columns: 50% 50% 50%;
-	grid-template-rows: 50% 50% 50%;
+	grid-template-columns: 33% 33% 33.3%;
+	grid-template-rows: 33% 40% 33%;
 
 }
 
