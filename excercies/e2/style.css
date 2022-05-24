@@ -1,0 +1,30 @@
+/*YUH FONT CREATION PRACTICE*/
+
+h1{
+	font-size: 100px;
+
+}
+
+.grid{
+	border:  1 px solid black;
+	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 50px 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px;
+
+}
+
+.grid-item {
+	border:  1px solid black;
+}
+
+.grid-item-black {
+	background-color: skyblue;
+	/*border-radius: 50%;*/
+}
+
+.grid-item-black:nth-child(even){
+	background-color: darkblue;
+	/*border-radius: 50%;*/
+}

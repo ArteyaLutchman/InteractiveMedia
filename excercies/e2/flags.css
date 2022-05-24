@@ -1,0 +1,71 @@
+h1{
+	font-size: 100px;
+}
+
+		/*Sweden*/
+.Sweden{
+	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 50% 20% 90%;
+	grid-template-rows: 40% 20% 40%;
+}
+
+.Blue {
+	background-color: skyblue;
+}
+
+.Yellow {
+	background-color: yellow;
+}
+
+		/*Denmark*/
+.Denmark{
+	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 50% 10% 80%;
+	grid-template-rows: 50% 10% 50%;
+}
+.white{
+	background-color: white;
+
+}
+.red {
+	background-color: red;
+}
+
+		/*FINLAND*/
+
+.Finland{
+	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 40% 20% 80%;
+	grid-template-rows: 40% 20% 40%;
+
+}
+
+.Flblue{
+	background-color: blue
+/*I really tired with using span and area but sometimes it won't work*/
+
+}
+
+
+.Iceland{
+	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 70% 10% 20% 10% 140%;
+	grid-template-rows: 70% 10% 20% 10% 70%;
+
+}
+
+.Iblue{
+	background-color: blue
+}
+.IRed{
+	background-color: red;
+}
+
