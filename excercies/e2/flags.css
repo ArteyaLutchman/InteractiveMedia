@@ -2,7 +2,7 @@ h1{
 	font-size: 100px;
 }
 
-		/*Sweden*/
+/*Sweden*/
 .Sweden{
 	display: grid;
 	width: 250px;
@@ -19,7 +19,7 @@ h1{
 	background-color: yellow;
 }
 
-		/*Denmark*/
+/*Denmark*/
 .Denmark{
 	display: grid;
 	width: 250px;
@@ -35,7 +35,7 @@ h1{
 	background-color: red;
 }
 
-		/*FINLAND*/
+/*FINLAND*/
 
 .Finland{
 	display: grid;
@@ -52,13 +52,15 @@ h1{
 
 }
 
+/*ICELAND*/
 
 .Iceland{
+	 position: static;	
 	display: grid;
 	width: 250px;
 	height: 250px;
-	grid-template-columns: 70% 10% 20% 10% 140%;
-	grid-template-rows: 70% 10% 20% 10% 70%;
+	grid-template-columns: 55% 5% 10% 5% 70%;
+	grid-template-rows: 55% 5% 10% 5% 55%;
 
 }
 
@@ -68,4 +70,24 @@ h1{
 .IRed{
 	background-color: red;
 }
+
+/*japan*/
+
+.Japan{
+	line-height: 100%;
+	display: grid;
+	width: 250px;
+	height: 250px;
+	grid-template-columns: 50% 50% 50%;
+	grid-template-rows: 50% 50% 50%;
+
+}
+
+.JRed{
+
+	background-color: darkred;
+	border-radius: 100%;
+}
+
+
 
