@@ -1,0 +1,28 @@
+h1{
+	font-size: 100px;
+}
+
+
+.letter {
+
+	width:250px; /*resize as you see fit */
+	height:210px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:1px solid #000; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+.letter-a {
+
+}
+
+
+
+.grid-item {
+	border:  1px solid black;
+}
+
+.grid-item-black {
+	background-color: skyblue;
+	/*border-radius: 50%;*/
+}
