@@ -5,24 +5,32 @@ h1{
 
 .letter {
 
-	width:250px; /*resize as you see fit */
-	height:210px; /*resize as you see fit */
-	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	width:210px; /*resize as you see fit */
+	height:240px; /*resize as you see fit */
+	display:inline-grid; /* this makes block level elements act like letters (so they sit next to eachother) */
+	grid-template-columns: repeat(21, 10px);
+	grid-template-rows: repeat(24, 10px);
 	border:1px solid #000; /*feel free to remove or hide this rule */
 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 }
 
-.letter-a {
+/*A WHITE SPACES*/
 
-}
+/* ROW STAR/COLUMN START/ ROW END/ COLUMN END */
 
 
-
-.grid-item {
+.A1{
 	border:  1px solid black;
+	grid-column: 11/22;
 }
 
-.grid-item-black {
-	background-color: skyblue;
-	/*border-radius: 50%;*/
+.A2{
+	border:  1px solid black;
+	grid-column: 11/21;
+	grid-row: 2;
+}
+.A3{
+	border:  1px solid black;
+	grid-column: 10/13;
+	grid-row: 3;
 }
