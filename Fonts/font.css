@@ -6,18 +6,18 @@ h1{
 .letter {
 
 	width:210px; /*resize as you see fit */
-	height:240px; /*resize as you see fit */
-	display:inline-grid; /* this makes block level elements act like letters (so they sit next to eachother) */
+	height:230px; /*resize as you see fit */
+	display:grid; /* this makes block level elements act like letters (so they sit next to eachother) */
+	float: left;
 	grid-template-columns: repeat(21, 10px);
-	grid-template-rows: repeat(24, 10px);
-	border:1px solid #000; /*feel free to remove or hide this rule */
+	grid-template-rows: repeat(23, 10px);
+	padding: 10px;
 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 }
 
 
-/* ROW STAR/COLUMN START/ ROW END/ COLUMN END */
-
 /*~~~~~~~~~~~~~~A A A A A A A ~~~~~~~~~~~~~~~~*/
+
 .A-ROW{
 	background-color: #1b1d4b;
 	grid-area: 1/15/24/17;
@@ -432,6 +432,7 @@ h1{
 
 /*~~~~~~~~~~~~~~~~~ D D D D D D D ~~~~~~~~~~~~~~~*/
 
+
 .D1{
 	background-color: #1b1d4b;
 	grid-column: 1/17;
@@ -664,7 +665,7 @@ h1{
 }
 
 
-	/*~~~~~~~~~~~~ G G G G G G  G ~~~~~~*/
+/*~~~~~~~~~~~~ G G G G G G  G ~~~~~~*/
 
 .G1{
 	background-color: #1b1d4b;
@@ -995,7 +996,7 @@ h1{
 	grid-row: 20/24;
 }
 .J9{
-	}
+}
 .J10{
 	background-color: #1b1d4b;
 	grid-column: 10;
