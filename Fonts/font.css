@@ -14,23 +14,2436 @@ h1{
 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 }
 
-/*A WHITE SPACES*/
 
 /* ROW STAR/COLUMN START/ ROW END/ COLUMN END */
 
-
-.A1{
-	border:  1px solid black;
-	grid-column: 11/22;
+/*~~~~~~~~~~~~~~A A A A A A A ~~~~~~~~~~~~~~~~*/
+.A-ROW{
+	background-color: #1b1d4b;
+	grid-area: 1/15/24/17;
 }
-
+.A1{
+	background-color: #1b1d4b;
+	grid-column: 11/22;
+	grid-row: 1;
+}
 .A2{
-	border:  1px solid black;
+	background-color: #1b1d4b;
 	grid-column: 11/21;
 	grid-row: 2;
 }
 .A3{
-	border:  1px solid black;
+	background-color: #1b1d4b;
 	grid-column: 10/13;
 	grid-row: 3;
 }
+.A4{
+	background-color: #1b1d4b;
+	grid-column: 10/12;
+	grid-row: 4;
+}
+.A5{
+	background-color: #1b1d4b;
+	grid-column: 10/12;
+	grid-row: 5;
+}
+.A6{
+	background-color: #1b1d4b;
+	grid-column: 9/11;
+	grid-row: 6;
+}
+.A7{
+	background-color: #1b1d4b;
+	grid-column: 9/11;
+	grid-row: 7;
+}
+.A8{
+	background-color: #1b1d4b;
+	grid-column: 8/11;
+	grid-row: 8;
+}
+.A9{
+	background-color: #1b1d4b;
+	grid-column: 8/10;
+	grid-row: 9;
+}
+.A10{
+	background-color: #1b1d4b;
+	grid-column: 7/10;
+	grid-row: 10;
+}
+.A11{
+	background-color: #1b1d4b;
+	grid-column: 7/9;
+	grid-row: 11;
+}
+.A12{
+	background-color: #1b1d4b;
+	grid-column: 6/15;
+	grid-row: 12;
+}
+.A13{
+	background-color: #1b1d4b;
+	grid-column: 6/9;
+	grid-row: 13;
+}
+.A14{
+	background-color: #1b1d4b;
+	grid-column: 5/8;
+	grid-row: 14;
+}
+.A15{
+	background-color: #1b1d4b;
+	grid-column: 5/7;
+	grid-row: 15;
+}
+.A16{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 16;
+}
+.A17{
+	background-color: #1b1d4b;
+	grid-column: 4/6;
+	grid-row: 17;
+}
+.A18{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 18;
+}
+.A19{
+	background-color: #1b1d4b;
+	grid-column: 3/5;
+	grid-row: 19;
+}
+.A20{
+	background-color: #1b1d4b;
+	grid-column: 3/5;
+	grid-row: 20;
+}
+.A21{
+	background-color: #1b1d4b;
+	grid-column: 2/5;
+	grid-row: 21;
+}
+.A22{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 22;
+}
+.A23{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 23;
+}
+
+/*~~~~~~~~~~~~~~~~ B B B B B ~~~~~~~~~~*/
+
+.B1{
+	background-color: #1b1d4b;
+	grid-column: 1/17;
+	grid-row: 1;
+}
+.B2{
+	background-color: #1b1d4b;
+	grid-column: 2/18;
+	grid-row: 2;
+}
+.B3{
+	background-color: #1b1d4b;
+	grid-column: 3/11;
+	grid-row: 3;
+}
+.B3-2{
+	background-color: #1b1d4b;
+	grid-column: 12/19;
+	grid-row: 3;
+}
+.B4{
+	background-color: #1b1d4b;
+	grid-column: 5/9;
+	grid-row: 4;
+}
+.B4-2{
+	background-color: #1b1d4b;
+	grid-column: 15/20;
+	grid-row: 4;
+}
+.B5{
+	background-color: #1b1d4b;
+	grid-column: 5/9;
+	grid-row: 5;
+}
+.B5-2{
+	background-color: #1b1d4b;
+	grid-column: 16/20;
+	grid-row: 5/11;
+}
+.B6{
+	background-color: #1b1d4b;
+	grid-column: 5/7;
+	grid-row: 6;
+}
+.B7{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 7;
+}
+.B8{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 8;
+}
+.B9{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 9;
+}
+.B10{
+	background-color: #1b1d4b;
+	grid-column: 4/6;
+	grid-row: 10;
+}
+.B11{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 11;
+}
+.B11-2{
+	background-color: #1b1d4b;
+	grid-column: 15/19;
+	grid-row: 11;
+}
+.B12{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 12;
+}
+.B12-2{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 12;
+}
+.B13{
+	background-color: #1b1d4b;
+	grid-column: 3/17;
+	grid-row: 13;
+}
+.B14{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 14;
+}
+.B14-2{
+	background-color: #1b1d4b;
+	grid-column: 14/18;
+	grid-row: 14;
+}
+.B15{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 15;
+}
+.B15-2{
+	background-color: #1b1d4b;
+	grid-column: 15/19;
+	grid-row: 15;
+}
+.B16{
+	background-color: #1b1d4b;
+	grid-column: 2/5;
+	grid-row: 16;
+}
+.B16-2{
+	background-color: #1b1d4b;
+	grid-column: 15/19;
+	grid-row: 16;
+}
+.B17{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 17;
+}
+.B17-2{
+	background-color: #1b1d4b;
+	grid-column: 16/20;
+	grid-row: 17/20;
+}
+.B18{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 18;
+}
+.B19{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 19;
+}
+.B20{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 20;
+}
+.B20-2{
+	background-color: #1b1d4b;
+	grid-column: 15/19;
+	grid-row: 20;
+}
+.B21{
+	background-color: #1b1d4b;
+	grid-column: 1/4;
+	grid-row: 21;
+}
+.B21-2{
+	background-color: #1b1d4b;
+	grid-column: 15/18;
+	grid-row: 21;
+}
+.B22{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 22;
+}
+.B22-2{
+	background-color: #1b1d4b;
+	grid-column: 14/17;
+	grid-row: 22;
+}
+.B23{
+	background-color: #1b1d4b;
+	grid-column: 1/17;
+	grid-row: 23;
+}
+
+
+/*~~~~~~~~C C C C C C C C  ~~~~~~~~*/
+
+.C1{
+	background-color: #1b1d4b;
+	grid-column: 4/16;
+	grid-row: 1;
+}
+.C2{
+	background-color: #1b1d4b;
+	grid-column: 3/17;
+	grid-row: 2;
+}
+.C3{
+	background-color: #1b1d4b;
+	grid-column: 3/11;
+	grid-row: 3;
+}
+.C3-2{
+	background-color: #1b1d4b;
+	grid-column: 12/18;
+	grid-row: 3;
+}
+.C4{
+	background-color: #1b1d4b;
+	grid-column: 3/10;
+	grid-row: 4;
+}
+.C4-2{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 4;
+}
+.C5{
+	background-color: #1b1d4b;
+	grid-column: 3/8;
+	grid-row: 5/7;
+}
+.C5-2{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 5;
+}
+.C6{
+	background-color: #1b1d4b;
+	grid-column: 14/18;
+	grid-row: 6/8;
+}
+.C7{
+	background-color: #1b1d4b;
+	grid-column: 3/7;
+	grid-row: 7;
+}
+.C8{
+	background-color: #1b1d4b;
+	grid-column: 2/7;
+	grid-row: 8/17;
+}
+.C13{
+	background-color: #1b1d4b;
+	grid-column: 15/18;
+	grid-row: 13/16;
+}
+.C16{
+	background-color: #1b1d4b;
+	grid-column: 8/15;
+	grid-row: 16;
+}
+.C16{
+	background-color: #1b1d4b;
+	grid-column: 14/18;
+	grid-row: 16/19;
+}
+.C17{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 17/20;
+}
+.C19{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 19/21;
+}
+.C20{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 20;
+}
+.C21{
+	background-color: #1b1d4b;
+	grid-column: 1/7;
+	grid-row: 21;
+}
+.C21-2{
+	background-color: #1b1d4b;
+	grid-column: 12/18;
+	grid-row: 21;
+}
+.C22{
+	background-color: #1b1d4b;
+	grid-column: 1/9;
+	grid-row: 22;
+}
+.C22-2{
+	background-color: #1b1d4b;
+	grid-column: 11/17;
+	grid-row: 22;
+}
+.C23{
+	background-color: #1b1d4b;
+	grid-column: 1/16;
+	grid-row: 23;
+}
+
+/*~~~~~~~~~~~~~~~~~ D D D D D D D ~~~~~~~~~~~~~~~*/
+
+.D1{
+	background-color: #1b1d4b;
+	grid-column: 1/17;
+	grid-row: 1;
+}
+.D2{
+	background-color: #1b1d4b;
+	grid-column: 2/18;
+	grid-row: 2;
+}
+.D3{
+	background-color: #1b1d4b;
+	grid-column: 3/19;
+	grid-row: 3;
+}
+.D4{
+	background-color: #1b1d4b;
+	grid-column: 5/9;
+	grid-row: 4/7;
+}
+.D5{
+	background-color: #1b1d4b;
+	grid-column: 16/19;
+	grid-row: 4/6;
+}
+.D6{
+	background-color: #1b1d4b;
+	grid-column: 17/19;
+	grid-row: 6/16;
+}
+.D7{
+	background-color: #1b1d4b;
+	grid-column: 4/8;
+	grid-row: 7/11;
+}
+
+.D10{
+}
+.D11{
+	background-color: #1b1d4b;
+	grid-column: 3/7;
+	grid-row: 11/15;
+}
+
+.D15{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 15/19;
+}
+.D16{
+	background-color: #1b1d4b;
+	grid-column: 16/19;
+	grid-row: 16/19;
+}
+.D18{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 18;
+}
+.D19{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 19;
+}
+.D19-2{
+	background-color: #1b1d4b;
+	grid-column: 15/19;
+	grid-row: 19;
+}
+.D20{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 20;
+}
+.D20-2{
+	background-color: #1b1d4b;
+	grid-column: 14/19;
+	grid-row: 20;
+}
+.D21{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 21;
+}
+.D21-2{
+	background-color: #1b1d4b;
+	grid-column: 12/19;
+	grid-row: 21;
+}
+.D22{
+	background-color: #1b1d4b;
+	grid-column: 1/18;
+	grid-row: 22;
+}
+.D23{
+	background-color: #1b1d4b;
+	grid-column: 1/17;
+	grid-row: 23;
+}
+
+/*~~~~~~~~~~~~E E E E E E E E E E E E~~~~~~~~~~~~~*/
+
+.E1{
+	background-color: #1b1d4b;
+	grid-column: 3/18;
+	grid-row: 1;
+}
+.E2{
+	background-color: #1b1d4b;
+	grid-column: 3/17;
+	grid-row: 2;
+}
+.E3{
+	background-color: #1b1d4b;
+	grid-column: 3/16;
+	grid-row: 3;
+}
+.E4{
+	background-color: #1b1d4b;
+	grid-column: 3/7;
+	grid-row: 4/9;
+}
+
+.E9{
+	background-color: #1b1d4b;
+	grid-column: 2/7;
+	grid-row: 9/14;
+}
+
+.E11{
+	background-color: #1b1d4b;
+	grid-column: 2/15;
+	grid-row: 11/13;
+}
+.E12{
+	background-color: #1b1d4b;
+	grid-column: 6/15;
+	grid-row: 12;
+}
+
+.E14{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 14/18;
+}
+
+.E18{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 18/20;
+}
+
+.E20{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 20/22;
+}
+.E21{
+	background-color: #1b1d4b;
+	grid-column: 2/5;
+	grid-row: 21;
+}
+.E22{
+	background-color: #1b1d4b;
+	grid-column: 1/12;
+	grid-row: 22;
+}
+.E23{
+	background-color: #1b1d4b;
+	grid-column: 1/15;
+	grid-row: 23;
+}
+
+/*~~~~~~~~~ F F F F F F F F F ~~~~~~~~~~*/
+
+.F1{
+	background-color: #1b1d4b;
+	grid-column: 3/18;
+	grid-row: 1;
+}
+.F2{
+	background-color: #1b1d4b;
+	grid-column: 3/17;
+	grid-row: 2;
+}
+.F3{
+	background-color: #1b1d4b;
+	grid-column: 3/16;
+	grid-row: 3;
+}
+.F4{
+	background-color: #1b1d4b;
+	grid-column: 3/7;
+	grid-row: 4/9;
+}
+.F9{
+	background-color: #1b1d4b;
+	grid-column: 2/7;
+	grid-row: 9/14;
+}
+.F11{
+	background-color: #1b1d4b;
+	grid-column: 2/15;
+	grid-row: 11/13;
+}
+.F12{
+	background-color: #1b1d4b;
+	grid-column: 6/15;
+	grid-row: 12;
+}
+.F14{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 14/18;
+}
+.F18{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 18/20;
+}
+.F20{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 20/22;
+}
+.F21{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 21/24;
+}
+
+
+	/*~~~~~~~~~~~~ G G G G G G  G ~~~~~~*/
+
+.G1{
+	background-color: #1b1d4b;
+	grid-column: 4/16;
+	grid-row: 1;
+}
+.G2{
+	background-color: #1b1d4b;
+	grid-column: 3/17;
+	grid-row: 2;
+}
+.G3{
+	background-color: #1b1d4b;
+	grid-column: 3/11;
+	grid-row: 3;
+}
+.G3-2{
+	background-color: #1b1d4b;
+	grid-column: 12/18;
+	grid-row: 3;
+}
+.G4{
+	background-color: #1b1d4b;
+	grid-column: 3/10;
+	grid-row: 4;
+}
+.G4-2{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 4;
+}
+.G5{
+	background-color: #1b1d4b;
+	grid-column: 3/8;
+	grid-row: 5/7;
+}
+.G5-2{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 5;
+}
+.G6{
+	background-color: #1b1d4b;
+	grid-column: 14/18;
+	grid-row: 6/8;
+}
+.G7{
+	background-color: #1b1d4b;
+	grid-column: 3/7;
+	grid-row: 7;
+}
+.G8{
+	background-color: #1b1d4b;
+	grid-column: 2/7;
+	grid-row: 8/17;
+}
+
+.G13{
+	background-color: #1b1d4b;
+	grid-column: 11/18;
+	grid-row: 13;
+}
+.G14{
+	background-color: #1b1d4b;
+	grid-column: 15/18;
+	grid-row: 14/16;
+}
+
+.G16{
+	background-color: #1b1d4b;
+	grid-column: 8/15;
+	grid-row: 16;
+}
+.G16{
+	background-color: #1b1d4b;
+	grid-column: 14/18;
+	grid-row: 16/19;
+}
+.G17{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 17/20;
+}
+
+.G19{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 19/21;
+}
+.G20{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 20;
+}
+.G21{
+	background-color: #1b1d4b;
+	grid-column: 1/7;
+	grid-row: 21;
+}
+.G21-2{
+	background-color: #1b1d4b;
+	grid-column: 12/18;
+	grid-row: 21;
+}
+.G22{
+	background-color: #1b1d4b;
+	grid-column: 1/9;
+	grid-row: 22;
+}
+.G22-2{
+	background-color: #1b1d4b;
+	grid-column: 11/17;
+	grid-row: 22;
+}
+.G23{
+	background-color: #1b1d4b;
+	grid-column: 1/16;
+	grid-row: 23;
+}
+
+
+/*~~~~~~~~~~ H H H H H H H H H H H ~~~~~~~~*/
+.H1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 15/24;
+}
+.H2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 11/24;
+}
+.H3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 6/24;
+}
+.H4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/24;
+}
+.H5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 1/19;
+}
+.H6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 1/13;
+}
+.H7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 1/7;
+}
+.H10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 17/24;
+}
+.H11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 13/24;
+}
+.H12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 6/24;
+}
+.H13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 1/24;
+}
+.H13-2{
+	background-color: #1b1d4b;
+	grid-column: 4/15;
+	grid-row: 13;
+}
+.H14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 1/17;
+}
+.H15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 1/12;
+}
+.H16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/4;
+}
+.H17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: ;
+}
+.H18{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 18;
+}
+.H19{
+	background-color: #1b1d4b;
+	grid-column: 3/5;
+	grid-row: 19;
+}
+.H20{
+	background-color: #1b1d4b;
+	grid-column: 3/5;
+	grid-row: 20;
+}
+.H21{
+	background-color: #1b1d4b;
+	grid-column: 2/5;
+	grid-row: 21;
+}
+.H22{
+	background-color: #1b1d4b;
+	grid-column: 22;
+	grid-row: 22;
+}
+.H23{
+	background-color: #1b1d4b;
+	grid-column: 11/16;
+	grid-row: 23;
+}
+
+
+/*~~~~~~ I I I I I I  I  ~~~~~~ */
+
+.I1{
+	background-color: #1b1d4b;
+	grid-column: 3/19;
+	grid-row: 1;
+}
+.I2{
+	background-color: #1b1d4b;
+	grid-column: 4/18;
+	grid-row: 2;
+}
+.I3{
+	background-color: #1b1d4b;
+	grid-column: 8/13;
+	grid-row: 3;
+}
+.I4{
+	background-color: #1b1d4b;
+	grid-column: 8/12;
+	grid-row: 4/9;
+}
+.I8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 8/11;
+}
+.I9{
+	background-color: #1b1d4b;
+	grid-column: 7/11;
+	grid-row: 9/13;
+}
+.I13{
+	background-color: #1b1d4b;
+	grid-column: 7/10;
+	grid-row: 13/17;
+}
+.I17{
+	background-color: #1b1d4b;
+	grid-column: 6/10;
+	grid-row: 17/21;
+}
+.I21{
+	background-color: #1b1d4b;
+	grid-column: 5/11;
+	grid-row: 21;
+}
+.I22{
+	background-color: #1b1d4b;
+	grid-column: 2/16;
+	grid-row: 22;
+}
+.I23{
+	background-color: #1b1d4b;
+	grid-column: 2/17;
+	grid-row: 23;
+}
+
+/*~~~~~~~ J J J J  J  J J J   JJ J  ~~~~*/
+
+.J1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 15/17;
+}
+.J2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 15/20;
+}
+.J3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 15/22;
+}
+.J4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 15/23;
+}
+.J5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 17/24;
+}
+.J6{
+	background-color: #1b1d4b;
+	grid-column: 6/8;
+	grid-row: 19/24;
+}
+.J8{
+	background-color: #1b1d4b;
+	grid-column: 8/10;
+	grid-row: 20/24;
+}
+.J9{
+	}
+.J10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 19/24;
+}
+.J11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 16/24;
+}
+.J12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 12/24;
+}
+.J13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 9/24;
+}
+.J14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 2/23;
+}
+.J15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 1/19;
+}
+.J16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/14;
+}
+.J17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 1/11;
+}
+.J18{
+	background-color: #1b1d4b;
+	grid-column: 18/21;
+	grid-row: 1/3;
+}
+
+/*~~~~~~~~ K  K K  K K K K K K K K K  ~~~~~~*/
+
+.K1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 18/24;
+}
+.K2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 12/24;
+}
+.K3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 1/24;
+}
+.K4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/23;
+}
+.K5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 1/17;
+}
+.K6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 1/14;
+}
+.K7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 9/14;
+}
+.K8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 9/13;
+}
+.K9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 10/14;
+}
+.K10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 9/16;
+}
+.K11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 8/17;
+}
+.K12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 8/19;
+}
+.K13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 7/12;
+}
+.K13-2{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 13/20;
+}
+.K14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 5/12;
+}
+.K14-2{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 14/22;
+}
+.K15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 1/11;
+}
+.K16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/10;
+}
+.K17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 1/9;
+}
+.K18{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 1/7;
+}
+.K19{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 16/23;
+}
+.K20{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 17/24;
+}
+.K21{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 18/24;
+}
+.K22{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 20/24;
+}
+.K23{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 21/24;
+}
+
+/*~~~~~~~~    L L L L L L  L L L L L L L L ~~~~~~*/
+
+.L1{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/3;
+}
+.L2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 22/24;
+}
+.L3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 15/24;
+}
+.L4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 7/24;
+}
+.L5{
+	background-color: #1b1d4b;
+	grid-column: 5/7;
+	grid-row: 1/24;
+}
+.L7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 1/15;
+}
+.L8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 1/9;
+}
+.L9{
+	background-color: #1b1d4b;
+	grid-column: 2/13;
+	grid-row: 21;
+}
+.L10{
+	background-color: #1b1d4b;
+	grid-column: 2/17;
+	grid-row: 22/24;
+}
+
+/*~~~~~~ k k k k k k k k k k k ~~~~~~~*/
+.M1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 17/24;
+}
+.M2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 12/24;
+}
+.M3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 7/20;
+}
+.M4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 4/19;
+}
+.M5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 1/13;
+}
+.M6{
+	background-color: #1b1d4b;
+	grid-column: 6/8;
+	grid-row: 1/9;
+}
+.M7{
+	background-color: #1b1d4b;
+	grid-column: 7/12;
+	grid-row: 1;
+}
+.M8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 1/16;
+}
+.M9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 5/21;
+}
+.M10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 11/21;
+}
+.M11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 11/20;
+}
+.M12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 8/15;
+}
+.M13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 5/13;
+}
+.M14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 2/9;
+}
+.M14-2{
+	background-color: #1b1d4b;
+	grid-column: 14/21;
+	grid-row: 1;
+}
+.M15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 1/9;
+}
+.M16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/16;
+}
+.M17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 1/20;
+}
+.M18{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 10/24;
+}
+.M19{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 17/24;
+}
+
+/*~~~~~~ N N N NN N N N N ~~~~*/
+.N1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 19/24;
+}
+.N2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 14/24;
+}
+.N3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 7/24;
+}
+.N4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/18;
+}
+.N5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 1/15;
+}
+.N6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 1/12;
+}
+.N7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 1/7;
+}
+.N8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 1/9;
+}
+.N9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 4/11;
+}
+.N10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 6/13;
+}
+.N11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 8/15;
+}
+.N12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 9/18;
+}
+.N13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 12/20;
+}
+.N14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 14/22;
+}
+.N15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 16/23;
+}
+.N16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/10;
+}
+.N17{
+	background-color: #1b1d4b;
+	grid-column: 16/19;
+	grid-row: 18/24;
+}
+.N18{
+	background-color: #1b1d4b;
+	grid-column: 17/19;
+	grid-row: 1/24;
+}
+.N19{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 1/19;
+}
+.N20{
+	background-color: #1b1d4b;
+	grid-column:4/13;
+	grid-row: 1;
+}
+
+/*~~~~~~~ O O O O O O O O O O O O O O O ~~~~~*/
+
+
+.O1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 9/21;
+}
+.O2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 5/23;
+}
+.O3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 2/24;
+}
+.O4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/24;
+}
+.O5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 1/13;
+}
+.O6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 1/9;
+}
+.O7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 1/7;
+}
+.O8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 1/5;
+}
+.O9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 1/3;
+}
+.O10{
+	background-color: #1b1d4b;
+	grid-column: 10/13;
+	grid-row: 1/2;
+}
+.O11{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 18/24;
+}
+.O12{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 20/24;
+}
+.O13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 1/3;
+}
+.O14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 1/4;
+}
+.O14-2{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 21/24;
+}
+.O15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 1/5;
+}
+.O16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/7;
+}
+.O17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 1/23;
+}
+.O18{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 2/22;
+}
+.O19{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 3/19;
+}
+
+.O20{
+	background-color: #1b1d4b;
+	grid-column: 8/17;
+	grid-row: 23;
+}
+.O21{
+	background-color: #1b1d4b;
+	grid-column: 11/17;
+	grid-row: 22;
+}
+.O22{
+	background-color: #1b1d4b;
+	grid-column: 12/19;
+	grid-row: 21;
+}
+.O23{
+	background-color: #1b1d4b;
+	grid-column: 14/17;
+	grid-row: 20;
+}
+.O24{
+	background-color: #1b1d4b;
+	grid-column: 14/19;
+	grid-row: 19;
+}
+.O25{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 14/20;
+}
+
+/*~~~~~~~P P P P  P P P P P P P P ~~~~~~~*/
+
+.P1{
+	background-color: #1b1d4b;
+	grid-column: 1/21;
+	grid-row: 1;
+}
+.P2{
+	background-color: #1b1d4b;
+	grid-column: 2/21;
+	grid-row: 2;
+}
+.P3{
+	background-color: #1b1d4b;
+	grid-column: 4/8;
+	grid-row: 3/8;
+}
+.P4{
+	background-color: #1b1d4b;
+	grid-column: 18/21;
+	grid-row: 3/5;
+}
+.P5{
+	background-color: #1b1d4b;
+	grid-column: 19/21;
+	grid-row: 5/9;
+}
+.P6{
+	background-color: #1b1d4b;
+	grid-column: 18/21;
+	grid-row: 9;
+}
+.P7{
+	background-color: #1b1d4b;
+	grid-column: 17/21;
+	grid-row: 10;
+}
+.P8{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 8/10;
+}
+.P9{
+	background-color: #1b1d4b;
+	grid-column: 16/20;
+	grid-row: 11;
+}
+.P10{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 10/12;
+}
+
+.P12{
+	background-color: #1b1d4b;
+	grid-column: 3/19;
+	grid-row: 12;
+}
+.P13{
+	background-color: #1b1d4b;
+	grid-column: 3/18	;
+	grid-row: 13;
+}
+.P14{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 14;
+}
+.P15{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 15/20;
+}
+
+.P20{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 20/24;
+}
+
+
+/*~~~~~ Q Q Q Q Q Q Q Q ~~~*/
+
+.Q1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 9/21;
+}
+.Q2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 5/23;
+}
+.Q3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 2/24;
+}
+.Q4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/24;
+}
+.Q5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 1/13;
+}
+.Q6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 1/9;
+}
+.Q7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 1/7;
+}
+.Q8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 1/5;
+}
+.Q9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 1/3;
+}
+.Q10{
+	background-color: #1b1d4b;
+	grid-column: 10/13;
+	grid-row: 1/2;
+}
+.Q11{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 18/24;
+}
+.Q12{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 20/24;
+}
+.Q13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 1/3;
+}
+.Q14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 1/4;
+}
+.Q14-2{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 21/24;
+}
+.Q15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 1/5;
+}
+.Q16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/7;
+}
+.Q17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 1/23;
+}
+.Q18{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 2/22;
+}
+.Q19{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 3/19;
+}
+
+.Q20{
+	background-color: #1b1d4b;
+	grid-column: 8/17;
+	grid-row: 23;
+}
+.Q21{
+	background-color: #1b1d4b;
+	grid-column: 11/17;
+	grid-row: 22;
+}
+.Q22{
+	background-color: #1b1d4b;
+	grid-column: 12/19;
+	grid-row: 21;
+}
+.Q23{
+	background-color: #1b1d4b;
+	grid-column: 14/17;
+	grid-row: 20;
+}
+.Q24{
+	background-color: #1b1d4b;
+	grid-column: 14/19;
+	grid-row: 19;
+}
+.Q25{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 14/20;
+}
+.Q26{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 15/17;
+}
+.Q27{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 16/18;
+}
+.Q28{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 17/19;
+}
+.Q29{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 18/20;
+}
+.Q30{
+	background-color: #1b1d4b;
+	grid-column: 18/20;
+	grid-row: 22;
+}
+.Q31{
+	background-color: #1b1d4b;
+	grid-column: 20;
+	grid-row: 23;
+}
+
+/*~~~~~~~~~  R R R R R R R R R ~~~~~*/
+.R1{
+	background-color: #1b1d4b;
+	grid-column: 1/21;
+	grid-row: 1;
+}
+.R2{
+	background-color: #1b1d4b;
+	grid-column: 2/21;
+	grid-row: 2;
+}
+.R3{
+	background-color: #1b1d4b;
+	grid-column: 4/8;
+	grid-row: 3/8;
+}
+.R4{
+	background-color: #1b1d4b;
+	grid-column: 18/21;
+	grid-row: 3/5;
+}
+.R5{
+	background-color: #1b1d4b;
+	grid-column: 19/21;
+	grid-row: 5/9;
+}
+.R6{
+	background-color: #1b1d4b;
+	grid-column: 18/21;
+	grid-row: 9;
+}
+.R7{
+	background-color: #1b1d4b;
+	grid-column: 17/21;
+	grid-row: 10;
+}
+.R8{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 8/10;
+}
+.R9{
+	background-color: #1b1d4b;
+	grid-column: 16/20;
+	grid-row: 11;
+}
+.R10{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 10/12;
+}
+
+.R12{
+	background-color: #1b1d4b;
+	grid-column: 3/19;
+	grid-row: 12;
+}
+.R13{
+	background-color: #1b1d4b;
+	grid-column: 3/18	;
+	grid-row: 13;
+}
+.R14{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 14;
+}
+.R15{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 15/20;
+}
+
+.R20{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 20/24;
+}
+.R21{
+	background-color: #1b1d4b;
+	grid-column: 12/17;
+	grid-row: 14/16;
+}
+.R22{
+	background-color: #1b1d4b;
+	grid-column: 13/18;
+	grid-row: 16;
+}
+.R23{
+	background-color: #1b1d4b;
+	grid-column: 14/19;
+	grid-row: 17;
+}
+.R24{
+	background-color: #1b1d4b;
+	grid-column: 15/20;
+	grid-row: 18/20;
+}
+.R25{
+	background-color: #1b1d4b;
+	grid-column: 16/21;
+	grid-row: 20/22;
+}
+.R26{
+	background-color: #1b1d4b;
+	grid-column: 17/22;
+	grid-row: 22;
+}
+.R27{
+	background-color: #1b1d4b;
+	grid-column: 18/22;
+	grid-row: 23;
+}
+
+
+/*~~~~~~~ S S S S S S S S S S S S ~~~~~~*/
+
+.S1{
+	background-color: #1b1d4b;
+	grid-column: 3/17;
+	grid-row: 1;
+}
+.S2{
+	background-color: #1b1d4b;
+	grid-column: 2/19;
+	grid-row: 2/4;
+}
+.S3{
+	background-color: #1b1d4b;
+	grid-column: 14/20;
+	grid-row: 4;
+}
+.S4{
+	background-color: #1b1d4b;
+	grid-column: 2/6;
+	grid-row: 4;
+}
+.S5{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 5;
+}
+.S6{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 6/12;
+}
+.S7{
+	background-color: #1b1d4b;
+	grid-column: 15/21;
+	grid-row: 5;
+}
+.S8{
+	background-color: #1b1d4b;
+	grid-column: 16/21;
+	grid-row: 6;
+}
+
+
+
+.S12{
+	background-color: #1b1d4b;
+	grid-column: 1/21;
+	grid-row: 12;
+}
+.S13{
+	background-color: #1b1d4b;
+	grid-column: 17/21;
+	grid-row: 13/18;
+}
+
+.S15{
+	background-color: #1b1d4b;
+	grid-column: 1/5;
+	grid-row: 15;
+}
+.S16{
+	background-color: #1b1d4b;
+	grid-column: 1/6;
+	grid-row: 16/19;
+}
+.S17{
+	background-color: #1b1d4b;
+	grid-column: 16/21;
+	grid-row: 18;
+}
+.S18{
+	background-color: #1b1d4b;
+	grid-column: 15/21;
+	grid-row: 19/21;
+}
+.S19{
+	background-color: #1b1d4b;
+	grid-column: 1/7;
+	grid-row: 19;
+}
+.S20{
+	background-color: #1b1d4b;
+	grid-column: 1/9;
+	grid-row: 20;
+}
+.S21{
+	background-color: #1b1d4b;
+	grid-column: 2/20;
+	grid-row: 21;
+}
+.S22{
+	background-color: #1b1d4b;
+	grid-column: 3/18;
+	grid-row: 22;
+}
+.S23{
+	background-color: #1b1d4b;
+	grid-column: 4/17;
+	grid-row: 23;
+}
+
+
+/*~~~~~~~~ T T T T T TT T T T ~~~~*/
+
+.T1{
+	background-color: #1b1d4b;
+	grid-column: 3/19;
+	grid-row: 1;
+}
+.T2{
+	background-color: #1b1d4b;
+	grid-column: 4/18;
+	grid-row: 2;
+}
+.T3{
+	background-color: #1b1d4b;
+	grid-column: 8/13;
+	grid-row: 3;
+}
+.T4{
+	background-color: #1b1d4b;
+	grid-column: 8/12;
+	grid-row: 4/9;
+}
+.T8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 8/11;
+}
+.T9{
+	background-color: #1b1d4b;
+	grid-column: 7/11;
+	grid-row: 9/13;
+}
+.T13{
+	background-color: #1b1d4b;
+	grid-column: 7/10;
+	grid-row: 13/17;
+}
+.T17{
+	background-color: #1b1d4b;
+	grid-column: 6/10;
+	grid-row: 17/20;
+}
+.T18{
+	background-color: #1b1d4b;
+	grid-column: 5/9;
+	grid-row: 20/24;
+}
+
+
+
+/*~~~~~~~ u u u u u u u u u ~~~~~~*/
+.U1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 1/19;
+}
+.U2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 1/22;
+}
+.U3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 1/23;
+}
+.U4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 1/24;
+}
+.U5{
+	background-color: #1b1d4b;
+	grid-column: 3/9;
+	grid-row: 22;
+}
+.U6{
+	background-color: #1b1d4b;
+	grid-column: 4/18;
+	grid-row: 23;
+}
+.U7{
+	background-color: #1b1d4b;
+	grid-column: 12/18;
+	grid-row: 22;
+}
+.U8{
+	background-color: #1b1d4b;
+	grid-column: 14/19;
+	grid-row: 19/22;
+}
+.U9{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 2/24;
+}
+.U10{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 1/24;
+}
+.U11{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 1/24;
+}
+.U12{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 1/22;
+}
+
+
+/*~~~~~~ V V V V V V V V ~~~~~*/
+.V1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 1/8;
+}
+.V2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 1/11;
+}
+.V3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 3/13;
+}
+.V4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 4/16;
+}
+.V5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 7/19;
+}
+.V6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 9/22;
+}
+.V7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 12/24;
+}
+.V8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 15/24;
+}
+.V9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 18/24;
+}
+.V10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 21/24;
+}
+.V11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 19/23;
+}
+.V12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 17/21;
+}
+.V13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 14/19;
+}
+.V14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 12/17;
+}
+.V15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 9/15;
+}
+.V16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 7/13;
+}
+.V17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 4/12;
+}
+.V18{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 1/10;
+}
+.V19{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 1/6;
+}
+
+
+/*~~~~~~ W W W W W W W W W ~~~~*/
+.W1{
+	background-color: #1b1d4b;
+	grid-column: 1;
+	grid-row: 1/9;
+}
+.W2{
+	background-color: #1b1d4b;
+	grid-column: 2;
+	grid-row: 1/14;
+}
+.W3{
+	background-color: #1b1d4b;
+	grid-column: 3;
+	grid-row: 6/19;
+}
+.W4{
+	background-color: #1b1d4b;
+	grid-column: 4;
+	grid-row: 8/22;
+}
+.W5{
+	background-color: #1b1d4b;
+	grid-column: 5;
+	grid-row: 13/24;
+}
+.W6{
+	background-color: #1b1d4b;
+	grid-column: 6;
+	grid-row: 19/24;
+}
+.W7{
+	background-color: #1b1d4b;
+	grid-column: 7;
+	grid-row: 17/24;
+}
+.W8{
+	background-color: #1b1d4b;
+	grid-column: 8;
+	grid-row: 11/20;
+}
+.W9{
+	background-color: #1b1d4b;
+	grid-column: 9;
+	grid-row: 5/15;
+}
+.W10{
+	background-color: #1b1d4b;
+	grid-column: 10;
+	grid-row: 5/15;
+}
+.W11{
+	background-color: #1b1d4b;
+	grid-column: 11;
+	grid-row: 6/15;
+}
+.W12{
+	background-color: #1b1d4b;
+	grid-column: 12;
+	grid-row: 11/18;
+}
+.W13{
+	background-color: #1b1d4b;
+	grid-column: 13;
+	grid-row: 13/21;
+}
+.W14{
+	background-color: #1b1d4b;
+	grid-column: 14;
+	grid-row: 17/24;
+}
+.W15{
+	background-color: #1b1d4b;
+	grid-column: 15;
+	grid-row: 18/24;
+}
+.W16{
+	background-color: #1b1d4b;
+	grid-column: 16;
+	grid-row: 15/24;
+}
+.W17{
+	background-color: #1b1d4b;
+	grid-column: 17;
+	grid-row: 6/20;
+}
+.W18{
+	background-color: #1b1d4b;
+	grid-column: 18;
+	grid-row: 2/16;
+}
+.W19{
+	background-color: #1b1d4b;
+	grid-column: 19;
+	grid-row: 1/14;
+}
+
+
+/*~~~~~ Y Y Y Y Y Y YY  YY Y ~~~~~*/
+.A1{
+	background-color: #1b1d4b;
+	grid-column: 11/22;
+	grid-row: 1;
+}
+.A2{
+	background-color: #1b1d4b;
+	grid-column: 11/21;
+	grid-row: 2;
+}
+.A3{
+	background-color: #1b1d4b;
+	grid-column: 10/13;
+	grid-row: 3;
+}
+.A4{
+	background-color: #1b1d4b;
+	grid-column: 10/12;
+	grid-row: 4;
+}
+.A5{
+	background-color: #1b1d4b;
+	grid-column: 10/12;
+	grid-row: 5;
+}
+.A6{
+	background-color: #1b1d4b;
+	grid-column: 9/11;
+	grid-row: 6;
+}
+.A7{
+	background-color: #1b1d4b;
+	grid-column: 9/11;
+	grid-row: 7;
+}
+.A8{
+	background-color: #1b1d4b;
+	grid-column: 8/11;
+	grid-row: 8;
+}
+.A9{
+	background-color: #1b1d4b;
+	grid-column: 8/10;
+	grid-row: 9;
+}
+.A10{
+	background-color: #1b1d4b;
+	grid-column: 7/10;
+	grid-row: 10;
+}
+.A11{
+	background-color: #1b1d4b;
+	grid-column: 7/9;
+	grid-row: 11;
+}
+.A12{
+	background-color: #1b1d4b;
+	grid-column: 6/15;
+	grid-row: 12;
+}
+.A13{
+	background-color: #1b1d4b;
+	grid-column: 6/9;
+	grid-row: 13;
+}
+.A14{
+	background-color: #1b1d4b;
+	grid-column: 5/8;
+	grid-row: 14;
+}
+.A15{
+	background-color: #1b1d4b;
+	grid-column: 5/7;
+	grid-row: 15;
+}
+.A16{
+	background-color: #1b1d4b;
+	grid-column: 4/7;
+	grid-row: 16;
+}
+.A17{
+	background-color: #1b1d4b;
+	grid-column: 4/6;
+	grid-row: 17;
+}
+.A18{
+	background-color: #1b1d4b;
+	grid-column: 3/6;
+	grid-row: 18;
+}
+.A19{
+	background-color: #1b1d4b;
+	grid-column: 3/5;
+	grid-row: 19;
+}
+.A20{
+	background-color: #1b1d4b;
+	grid-column: 3/5;
+	grid-row: 20;
+}
+.A21{
+	background-color: #1b1d4b;
+	grid-column: 2/5;
+	grid-row: 21;
+}
+.A22{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 22;
+}
+.A23{
+	background-color: #1b1d4b;
+	grid-column: 2/4;
+	grid-row: 23;
+}
+
+
