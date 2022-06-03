@@ -1,0 +1,45 @@
+body{
+	background-color: #212565;
+}
+
+h1{
+	font-size: 20vh;
+	color: #F3B7C3;
+	text-align: center;
+}
+
+p{
+	font-size: 4vh;
+	color: #F3B7C3;
+	padding: 50px;
+}
+img{
+	height: 200px;
+	width: 300px;
+}
+.pic1{
+	transform: rotate(270deg);
+	height: 500px;
+	width: auto;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.pic2{
+	height: 500px;
+	width: auto;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding:  10px;
+}
+
+.pic3{
+	height: 500px;
+	width: auto;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding:  10px;
+}
