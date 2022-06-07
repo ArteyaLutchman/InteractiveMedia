@@ -1,0 +1,145 @@
+body{
+	background-image: linear-gradient(#FFFFFF, #F97698);
+}
+
+h1{
+	padding: 1vh;
+	font-size: 10vh;
+	text-transform: uppercase;
+	text-align: center;
+	color: #F97698;
+	z-index: -2;
+	opacity: 0.2;
+	letter-spacing:  15px;
+
+}
+
+h2{
+	
+	font-size: 6vh;
+	text-transform: uppercase;
+	text-align: center;
+	color: #362FBB;
+	position: absolute;
+	z-index: 1;
+	font-family: 'Inter', sans-serif;
+	 text-shadow: 2px 2px #9F9F9F;
+}
+
+h3{
+	
+	font-size: 4vh;
+	text-align: center;
+	color: #9325BA;
+	position: absolute;
+	z-index: 1;
+
+}
+
+h4{
+	font-size: 30px;
+	text-align: center;
+	color: #9325BA;
+	position: absolute;
+	z-index: 1;
+
+}
+
+
+.title{
+
+}
+
+/*GLOW HOVER*/
+#h1Hover:hover {
+	animation: h1Hover 10s ease;
+	animation-iteration-count: 1;
+
+}
+
+.center1{
+	width: 600px;
+	top: 40px;
+	margin: 0 auto;
+	left: 33%;
+	position: absolute;
+}
+.center2{
+	width: 350px;
+	top: 350px;
+	margin: 0 0;
+	left: 40%;
+	position: absolute;
+}
+
+.StudioA{
+	width: 400px;
+	top: 600px;
+	position: absolute;
+
+}
+.StudioA:hover span {
+  display: none;
+}
+
+.StudioA:hover:after {
+	font-size: 20px;
+	color: #362FBB;
+  content: ":From intimate depictions of bodies to substantial changes to the body itself, digitality permeates us."
+}
+
+.StudioB{
+	width: 350px;
+	top: 700px;
+	margin: 0 0;
+	left: 40%;
+	position: absolute;
+
+}
+
+.StudioB:hover span {
+  display: none;
+}
+
+.StudioB:hover:after {
+	color: #362FBB;
+	font-size: 20px;
+  content: ":To sustain protest we must also turn to one another for support. Can digital media serve as a means for this without undermining it?"
+}
+.StudioC{
+	width: 350px;
+	top: 800px;
+	margin: 0 0;
+	left: 80%;
+	position: absolute;
+}
+
+.StudioC:hover span {
+  display: none;
+}
+
+.StudioC:hover:after {
+	color: #362FBB;
+	font-size: 20px;
+  content: ":Digitality hasn't obviated geography as was anticipated; it has made geopolitical boundaries simultaneously more visible and more intensely monitored. Sometimes technology even makes visible border practices that states intend to be invisible."
+}
+
+
+
+@keyframes h1Hover{
+	0% {
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0.5;
+
+	}
+
+	100%{
+		opacity: 0.2;
+
+}
+
+
+
