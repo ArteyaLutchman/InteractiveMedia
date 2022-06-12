@@ -1,0 +1,41 @@
+
+body{
+	background-color: lightpink;;
+	 margin: auto;
+	 width: 80vw;
+
+
+}
+
+h1{
+	color: blue;
+	text-align: center;
+	font-size: 80px;
+}
+
+/*grid contrainer with defined area*/
+.grid-container {
+  display: inline-grid;
+  grid-template-areas:
+    'left mid1 right'
+    'left mid2 right'
+    'left mid3 right';
+  gap: 10px;
+  background-color: blue;
+  padding: 10px;
+  height: auto;
+
+}
+
+/*grid items*/
+.item1 {
+ grid-area: left; 
+}
+.item2 { grid-area: mid1; }
+.item3 { grid-area: mid2; }
+.item4 { grid-area: right; }
+.item5 { grid-area: mid3; }
+
+
+
+
