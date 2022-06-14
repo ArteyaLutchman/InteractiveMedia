@@ -31,6 +31,10 @@ h1{
 .item1 {
  grid-area: left; 
 }
+
+a.item1: hover, a.item1{
+
+}
 .item2 { grid-area: mid1; }
 .item3 { grid-area: mid2; }
 .item4 { grid-area: right; }
