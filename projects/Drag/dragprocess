@@ -1,0 +1,24 @@
+<!doctype html>
+    <html lang="">
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drag Process </title>
+
+        <!-- LINKS -->
+        <link rel="stylesheet" type="text/css" href="drag.css">
+     
+     <div>
+         <h1> </h1>
+
+         <p>
+            At first, thinking about the interaction of dragging, I could only think about using the drag to look around on a canvas, or from the perspective of the user. I have forgotten about how seamlessly the drag element is implemented in web design. Some other interactions I found are drawing, drag to scroll, sliders, drag to rotate, move elements, and other very experimental ideas. 
+
+At first, I wanted to mimic paper cut out on the webpage, where the user draws an image and then they are able to move the element around. But I found that to be very straightforward, and overall didn’t like the idea too much. 
+
+Another idea I have is for the user to drag around the webpage, like scrolling to find weird items to put in their inventory. There would be a different theme of items, such as internet culture photos, horror items, and cute items. 
+
+Next would be combining sound, visuals and interactions. The user would drag the mouse around the screen, and depending on where the mouse is different visuals and sounds will play. A right click-drag would change the sound. 
+
+     </div>
+
+
