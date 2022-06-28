@@ -1,8 +1,139 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+body{
+	background-color: black;
+	align-items: center;
+}
+
+h1{
+	color: white;
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	font-size: 10vh;
+	animation: glow  4s ease infinite alternate;
+}
+
+h2{
+	color: white;
+	font-family: 'Comic Neue', cursive;
+	text-align: center;
+	font-size: 5vh;
+}
+
+h3{
+	color: white;
+}
+
+p{
+	color: #D2D2D2;
+}
+
+.questions{
+	border: solid 2px white;
+	padding: 10px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/*ALUTCHMAN IMAGE*/
+.ALutchman{
+	width: 50vw;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.SillyCat{
+	width: 20vw;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+
+}
+
+.meow{
+	width: 5vw;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+
+}
+/*DROPDOWN BUTTON*/
+.dropbtn {
+	background-color: black;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/*HOVER DROPDOWN BUTTON*/
+.dropdown-content a {
+	background-color: black;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-image: linear-gradient(to right, #fb00ff, #00b7ff);
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	box-shadow: 5px 5px 1px #fb00ff, -5px -5px 1px #00b7ff ;
+}
+
+
+@keyframes glow {
+	0% {
+		text-shadow: 0px 5px 1px #fb00ff, 0px -5px 1px #00b7ff ;
+	}
+
+	25%{
+		text-shadow: 5px 0px 1px #fb00ff, -5px 0px 1px #00b7ff ;;
+	}
+
+	50%{
+		text-shadow: 5px 5px 1px #fb00ff, -5px -5px 1px #00b7ff ;
+	}
+	75%{
+		text-shadow: -5px 0px 1px #fb00ff, 5px 0px 1px #00b7ff ;;
+	}
+
+	100%{
+		text-shadow: 0px -5px 1px #fb00ff, 0px 5px 1px #00b7ff ;;
+	} 
+}
+
+	.center{
+		margin: auto;
+		width: 50%;
+		border: 3px solid white;
+		border-style: none none solid none;
+		padding: 10px;
+		text-align: center;
+	}
